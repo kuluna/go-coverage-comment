@@ -13,8 +13,6 @@ const fs = require('fs');
         const coverfunc = core.getInput('coverfunc');
         const out = fs.readFileSync(coverfunc, { encoding: 'utf-8' });
         const result = out.toString();
-        // debug
-        console.log(result);
         // 全体の結果だけ取得
         const parcent = parseCoverage(result);
 
@@ -62,10 +60,8 @@ const fs = require('fs');
  */
 function parseCoverage(stdout) {
     const lines = stdout.split('\n');
-    console.log(lines.length);
     // 最後の一行をパース
     const totalLine = lines[lines.length - 2];
-    console.log(totalLine);
     const totalSplit = totalLine.split('\t');
     return totalSplit[totalSplit.length - 1];
 }
