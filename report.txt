@@ -1,0 +1,7 @@
+github.com/hoge/huga/gogo.go:23:			RunInTransaction		0.0%
+github.com/hoge/huga/gogo.go:58:			ContextWithTransaction		0.0%
+github.com/hoge/huga/gogo.go:62:			GetTransactionOrNil		0.0%
+github.com/hoge/huga/test/test.go:14:				New				80.0%
+github.com/hoge/huga/test/test.go:26:				ID				100.0%
+github.com/hoge/huga/test/test.go:35:				generate			100.0%
+total:													(statements)			37.6%

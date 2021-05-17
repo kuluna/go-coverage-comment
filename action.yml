@@ -1,0 +1,12 @@
+name: 'go-coverage-comment'
+description: 'Comment test coverage'
+inputs:
+  coverfunc:
+    description: 'Set the coverage report (functions) file.'
+    required: true
+  GITHUB_TOKEN:
+    description: 'Use PR Comments.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

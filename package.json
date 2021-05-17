@@ -1,0 +1,24 @@
+{
+  "name": "go-coverage-comment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuluna/go-coverage-comment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuluna/go-coverage-comment/issues"
+  },
+  "homepage": "https://github.com/kuluna/go-coverage-comment#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/github": "^5.0.0"
+  }
+}
